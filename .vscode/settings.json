@@ -1,0 +1,34 @@
+{
+    "editor.fontFamily": "Operator Mono, Dank Mono, Fira Code Light",
+    "editor.fontLigatures": null,
+    "editor.minimap.side": "left",
+    "window.zoomLevel": 0,
+    "workbench.sideBar.location": "left",
+    "files.autoSave": "afterDelay",
+  // 換行
+  "editor.wordWrap": "on",
+  // 代码缩进修改成4个空格
+  "editor.tabSize": 4,
+  //保存的时候自动格式化
+  "editor.formatOnSave": false,
+  // 字體大小
+  "editor.fontSize": 15,
+  // 設置行高
+  "editor.lineHeight": 30,
+  "terminal.integrated.fontFamily": "monospace",
+  "typescript.check.tscVersion": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.confirmSync": false,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "git.autofetch": true,
+  "workbench.colorCustomizations": {
+  
+  },
+  "editor.cursorBlinking": "smooth",
+  "editor.codeActionsOnSave": null,
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "yapf",
+  "python.linting.flake8Args": ["--max-line-length=248"],
+  "python.linting.pylintEnabled": false
+}
