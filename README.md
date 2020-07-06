@@ -10,7 +10,7 @@
 
 * <font color=#0099ff>E-mail：boshengliu.sty0@gmail.com
 * Github：https://github.com/BoshengLiu
-* Blog：https://boshengliu.github.io/myblogs</font>
+* Blog：https://boshengliu.github.io/</font>
 
 # 博客总共分为8个部分，分别为：
 
