@@ -1,7 +1,240 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b132271d-2271-40a1-84e7-519f5f7b58e8" name="Default" comment="" />
+    <list default="true" id="b132271d-2271-40a1-84e7-519f5f7b58e8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/code/pratical/linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/hash.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/recursive.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/search.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathematics_basis_notes/chapter/matrix.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.idea/Blog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_404.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_coverpage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_sidebar.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/chapter/data_dimensionality_reduction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/chapter/data_explore.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/chapter/feature_selection.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/chapter/model_selection.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/code/PCA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/code/data_smoth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/code/disblance_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/code/null_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/code/outlier_handle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/code/standarized.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/data_dimensionality_reduction/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/data_dimensionality_reduction/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/data_dimensionality_reduction/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/data_dimensionality_reduction/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/data_dimensionality_reduction/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/data_dimensionality_reduction/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/data_explore/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/data_explore/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/data_explore/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/data_explore/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/data_explore/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/data_explore/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/feature_selection/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/model_selection/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/model_selection/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/model_selection/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/model_selection/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/imgs/model_selection/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_project_notes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/chapter/data_structures_alg_base.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/chapter/links.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/chapter/map.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/chapter/queue.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/chapter/sort_search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/chapter/stack.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/chapter/tree.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/code/排序与搜索/bubble_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/code/排序与搜索/insert_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/code/排序与搜索/merge_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/code/排序与搜索/quick_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/code/排序与搜索/select_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/code/排序与搜索/shell_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/code/排序与搜索/二分法查找.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/code/树/tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/code/链表/Double_Links_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/code/链表/Single_Links_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/code/链表/Single_circle_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data_structures_algorithms_notes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deep_learning_notes/chapter/BP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deep_learning_notes/chapter/CNN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deep_learning_notes/chapter/GNN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deep_learning_notes/chapter/RNN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deep_learning_notes/chapter/ctr_prediction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deep_learning_notes/chapter/deep_forward.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deep_learning_notes/chapter/introdution.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deep_learning_notes/chapter/optimization.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deep_learning_notes/chapter/practical.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deep_learning_notes/chapter/regularization.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deep_learning_notes/chapter/transformer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deep_learning_notes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dist/docsify-katex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/expand_algorithms/chapter/CRF.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/expand_algorithms/chapter/EM.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/expand_algorithms/chapter/HMM.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/expand_algorithms/chapter/maxent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/expand_algorithms/chapter/prob_infer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/expand_algorithms/chapter/semi_supervise.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/expand_algorithms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/chapter/feature_selector.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/chapter/matplotlib.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/chapter/mysql.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/chapter/numpy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/chapter/pandas.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/chapter/pytorch.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/chapter/seaborn.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/chapter/tensorflow.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/numpy_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/pandas_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/seaborn_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/优化器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/保存提取_tensorflow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/保存提取_torvh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/分类.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/卷积神经网络CNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/回归函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/基础.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/循环神经网络RNN_分类.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/循环神经网络RNN_回归.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/快速搭建法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/批数据训练.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/code/激励函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/library_usage_notes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/10_SVM.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/11_KNN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/12_K-Means.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/13_Associate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/14_Collaborative_filtering.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/1_Linear.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/2_Logistic_regression.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/3_Bayes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/4_Decision_tree.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/5_Integrated_learning.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/6_Random_forest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/7_Adaboost.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/8_GBDT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/chapter/9_XgBoost.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/code/apriori.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/code/线性回归.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Adaboost/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/2-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/2-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/2-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/2-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/2-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Associate/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Collaborative filtering/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Decision tree/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Decision tree/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Decision tree/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Integrated/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Integrated/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Integrated/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Integrated/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/K-Means/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/KNN/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/KNN/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/KNN/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/KNN/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/KNN/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Linear/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Linear/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Linear/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/RF/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/RF/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/SVM/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/SVM/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/SVM/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/SVM/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/SVM/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/SVM/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/SVM/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/SVM/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Xgboost/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/imgs/Xgboost/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/machine_learning_notes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/chapter/1_algebra.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/chapter/2_probability.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/chapter/3_numerical_computation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/chapter/4_monte_carlo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/chapter/常见数学符号.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/chapter/损失函数-评价指标.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/chapter/最大似然估计.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/chapter/最小二乘法.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/chapter/梯度下降.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/chapter/概率分布.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/chapter/矩阵知识.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/imgs/algebra/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/imgs/numerical_computation/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/imgs/numerical_computation/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/imgs/numerical_computation/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/imgs/numerical_computation/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/imgs/numerical_computation/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/imgs/numerical_computation/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/imgs/probability/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mathematics_basis_notes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/break_continue_pass.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/class.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/closure_decorator.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/design_patterns.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/dist_operate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/errors_exceptions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/file_operate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/func_anonymous_func.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/if_while_for.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/internal_function.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/iter_generators.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/list_operate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/logging.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/meta_class.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/module_package.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/names_scope.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/object_oriented_programming.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/str_operate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/time_date.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/tuple_set_operate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/chapter/var_operate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/code/优化技巧.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/code/内置函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/code/文件操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/code/素数判断.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/python_learning_notes/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sw.js" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,37 +247,80 @@
     <SUITE FILE_PATH="coverage/Blog$apriori.coverage" NAME="apriori Coverage Results" MODIFIED="1591262005372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommen_algorithm" />
     <SUITE FILE_PATH="coverage/Blog$.coverage" NAME="线性回归 Coverage Results" MODIFIED="1590144951335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning" />
     <SUITE FILE_PATH="coverage/Blog$test.coverage" NAME="test Coverage Results" MODIFIED="1590376182702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning" />
+    <SUITE FILE_PATH="coverage/myblogs$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1594291853395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/pratical" />
+    <SUITE FILE_PATH="coverage/myblogs$python_test.coverage" NAME="python_test Coverage Results" MODIFIED="1594042745586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning_notes" />
+    <SUITE FILE_PATH="coverage/myblogs$linked_list__1_.coverage" NAME="linked_list (1) Coverage Results" MODIFIED="1594521592740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/pratical" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_sidebar.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sidebar.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="351">
-                <caret line="95" column="62" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="regularization.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/deep_learning_notes/chapter/regularization.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="-70">
-                <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-                <folding>
-                  <element signature="e#6#17#0" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="links.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/links.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="1026">
+                    <caret line="68" selection-start-line="68" selection-end-line="68" />
+                    <folding>
+                      <element signature="e#5#11#0" />
+                      <element signature="e#4095#4105#0" />
+                      <element signature="e#8123#8131#0" />
+                      <element signature="e#10950#10956#0" />
+                    </folding>
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="linked_list.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/code/pratical/linked_list.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="972">
+                  <caret line="327" column="39" lean-forward="true" selection-start-line="327" selection-start-column="39" selection-end-line="327" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#24#113#0" />
+                    <element signature="e#151#3224#0" />
+                    <element signature="e#206#224#0" />
+                    <element signature="e#258#301#0" />
+                    <element signature="e#333#487#0" />
+                    <element signature="e#3264#6932#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="linked_list.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/code/pratical/linked_list.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="439">
+                  <caret line="194" column="32" selection-start-line="194" selection-start-column="32" selection-end-line="194" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#151#3224#0" />
+                    <element signature="e#206#224#0" />
+                    <element signature="e#258#301#0" />
+                    <element signature="e#333#487#0" />
+                    <element signature="e#3321#3339#0" />
+                    <element signature="e#3373#3416#0" />
+                    <element signature="e#3448#3713#0" />
+                    <element signature="e#3745#4030#0" />
+                    <element signature="e#4065#4403#0" />
+                    <element signature="e#4441#4748#0" />
+                    <element signature="e#4791#5174#0" />
+                    <element signature="e#5222#5511#0" />
+                    <element signature="e#5557#5856#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,46 +331,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python_learning_notes/chapter/time_date.md" />
-        <option value="$PROJECT_DIR$/python_learning_notes/chapter/file_operate.md" />
-        <option value="$PROJECT_DIR$/python_learning_notes/chapter/closure_decorator.md" />
-        <option value="$PROJECT_DIR$/python_learning_notes/chapter/logging.md" />
-        <option value="$PROJECT_DIR$/python_learning_notes/chapter/internal_function.md" />
-        <option value="$PROJECT_DIR$/python_learning_notes/chapter/object_oriented_programming.md" />
-        <option value="$PROJECT_DIR$/python_learning_notes/chapter/meta_class.md" />
-        <option value="$PROJECT_DIR$/python_learning_notes/chapter/func_anonymous_func.md" />
-        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/data_structures_alg_base.md" />
-        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/tree.md" />
-        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/links.md" />
-        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/queue.md" />
-        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/stack.md" />
-        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/readme.md" />
-        <option value="$PROJECT_DIR$/expand_algorithms/readme.md" />
-        <option value="$PROJECT_DIR$/library_usage_notes/readme.md" />
-        <option value="$PROJECT_DIR$/machine_learning_notes/readme.md" />
-        <option value="$PROJECT_DIR$/project_practice/readme.md" />
-        <option value="$PROJECT_DIR$/python_learning_notes/readme.md" />
-        <option value="$PROJECT_DIR$/python_learning_notes/chapter/var_operate.md" />
-        <option value="$PROJECT_DIR$/python_learning_notes/test.py" />
-        <option value="$PROJECT_DIR$/data_project_notes/chapter/data_dimensionality_reduction.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/损失函数-评价指标.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/概率分布.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/最小二乘法.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/最大似然估计.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/梯度下降.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_loss_func.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/3_numerical_computation.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/6_other.md" />
-        <option value="$PROJECT_DIR$/data_project_notes/readme.md" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/1_algebra.md" />
-        <option value="$PROJECT_DIR$/_coverpage.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/readme.md" />
         <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/2.md" />
-        <option value="$PROJECT_DIR$/_sidebar.md" />
         <option value="$PROJECT_DIR$/deep_learning_notes/readme.md" />
         <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/2_probability.md" />
         <option value="$PROJECT_DIR$/deep_learning_notes/chapter/introduction.md" />
@@ -109,6 +352,42 @@
         <option value="$PROJECT_DIR$/deep_learning_notes/chapter/deep_forward.md" />
         <option value="$PROJECT_DIR$/deep_learning_notes/chapter/regularization.md" />
         <option value="$PROJECT_DIR$/deep_learning_notes/chapter/BP.md" />
+        <option value="$PROJECT_DIR$/data_project_notes/chapter/model_selection.md" />
+        <option value="$PROJECT_DIR$/data_project_notes/chapter/feature_selection.md" />
+        <option value="$PROJECT_DIR$/python_learning_notes/chapter/var_operate.md" />
+        <option value="$PROJECT_DIR$/python_learning_notes/python_test.py" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/data_structures_alg_base.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/data_structures.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/usual_algorithms.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/code/链表/Single_circle_list.py" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/introduction.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/queue.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/tree.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/code/排序与搜索/merge_sort.py" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/sort.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/search.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/graph.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/hash.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/code/链表/Single_Links_list.py" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/array.md" />
+        <option value="$PROJECT_DIR$/code/data_structures_algorithms/链表/Double_Links_list.py" />
+        <option value="$PROJECT_DIR$/code/data_structures_algorithms/链表/Single_circle_list.py" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/stack.md" />
+        <option value="$PROJECT_DIR$/code/data_structures_algorithms/链表/Single_Links_list.py" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/links.md" />
+        <option value="$PROJECT_DIR$/code/pratical/single_circle_limks_list.py" />
+        <option value="$PROJECT_DIR$/code/pratical/links_test_module.py" />
+        <option value="$PROJECT_DIR$/code/pratical/single_linked_list.py" />
+        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/linear.md" />
+        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/2_Logistic_regression.md" />
+        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/6_other.md" />
+        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/math.md" />
+        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/matrix.md" />
+        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/1_Linear.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/readme.md" />
+        <option value="$PROJECT_DIR$/_sidebar.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/recursive.md" />
+        <option value="$PROJECT_DIR$/code/pratical/linked_list.py" />
       </list>
     </option>
   </component>
@@ -122,29 +401,19 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="316" />
-    <option name="y" value="436" />
+    <option name="x" value="245" />
+    <option name="y" value="20" />
     <option name="width" value="1515" />
-    <option name="height" value="883" />
+    <option name="height" value="885" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -154,13 +423,13 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1_algebra.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -181,26 +450,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
-    <configuration name="归一化和标准化处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Blog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_process" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_process/归一化和标准化处理.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.linked_list (1)">
     <configuration name="线性回归" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -296,6 +546,63 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="linked_list (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/pratical" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/pratical/linked_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/pratical" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\myblogs\code\pratical\linked_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="python_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning_notes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning_notes/python_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -315,37 +622,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Blog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine_learning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine_learning/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.归一化和标准化处理" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.线性回归" />
       <item itemvalue="Python.apriori" />
       <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.linked_list" />
+      <item itemvalue="Python.linked_list (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.linked_list (1)" />
+        <item itemvalue="Python.linked_list" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.apriori" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.归一化和标准化处理" />
       </list>
     </recent_temporary>
   </component>
@@ -373,26 +662,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16085792" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32668713" />
-      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32941177" />
-      <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="3" weight="0.5184049" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.45751634" />
+      <window_info anchor="right" id="Run" order="6" weight="0.35120642" />
+      <window_info anchor="right" id="Terminal" order="7" weight="0.30093834" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17493297" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="SciView" order="2" weight="0.4349232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2497979" />
-      <window_info anchor="right" id="Terminal" order="7" weight="0.26429808" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39869282" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Remote Host" order="0" weight="0.32983023" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
-      <window_info anchor="right" id="Run" order="6" weight="0.35120642" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.398773" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32941177" />
@@ -406,273 +696,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/probability.md" />
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/numerical_computation.md" />
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/monte_carlo.md" />
-    <entry file="file://$PROJECT_DIR$/library_usage_notes/chapter/tensorflow.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library_usage_notes/chapter/mysql.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expand_algorithms/chapter/semi_supervise.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expand_algorithms/chapter/CRF.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expand_algorithms/chapter/prob_infer.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/map.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="551">
-            <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expand_algorithms/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="513">
-            <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library_usage_notes/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="551">
-            <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning_notes/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="537">
-            <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_practice/readme.md" />
-    <entry file="file://$PROJECT_DIR$/python_learning_notes/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="173">
-            <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning_notes/python_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_project_notes/chapter/data_dimensionality_reduction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-2187">
-            <caret line="100" column="30" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning_notes/chapter/var_operate.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="297">
-            <caret line="11" selection-start-line="11" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/损失函数-评价指标.md" />
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/矩阵知识.md" />
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/概率分布.md" />
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/最小二乘法.md" />
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/最大似然估计.md" />
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/梯度下降.md" />
-    <entry file="file://$PROJECT_DIR$/data_project_notes/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="740">
-            <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="945">
-            <caret line="33" column="121" selection-start-line="33" selection-start-column="121" selection-end-line="33" selection-end-column="121" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/4_numerical_computation.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="135">
-            <caret line="325" column="3" lean-forward="true" selection-start-line="325" selection-start-column="3" selection-end-line="325" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/3_loss_func.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="351">
-            <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../1_algebra.html" />
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/1_algebra.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="585">
-            <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/6_other.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="324">
-            <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="459">
-            <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_coverpage.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/2.md" />
-    <entry file="file://$PROJECT_DIR$/deep_learning_notes/chapter/introdution.md" />
-    <entry file="file://$PROJECT_DIR$/deep_learning_notes/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="173">
-            <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/2_probability.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="378">
-            <caret line="335" column="48" selection-start-line="335" selection-start-column="48" selection-end-line="335" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning_notes/chapter/introduction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="659">
-            <caret line="78" column="54" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning_notes/chapter/optimization.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="27">
-            <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deep_learning_notes/chapter/CNN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -755,23 +782,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="416">
             <caret line="259" lean-forward="true" selection-start-line="259" selection-end-line="259" />
-            <folding>
-              <element signature="e#2263#2275#0" />
-              <element signature="e#31#43#0" />
-              <element signature="e#4746#4756#0" />
-              <element signature="e#5498#5508#0" />
-              <element signature="e#7320#7332#0" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sidebar.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="351">
-            <caret line="95" column="62" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
           </first_editor>
           <second_editor />
         </state>
@@ -780,13 +790,295 @@
     <entry file="file://$PROJECT_DIR$/deep_learning_notes/chapter/regularization.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-70">
-            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <first_editor relative-caret-position="108">
+            <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_project_notes/chapter/data_explore.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="264">
+            <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_project_notes/chapter/feature_selection.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="243">
+            <caret line="52" column="78" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_project_notes/chapter/model_selection.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="386">
+            <caret line="226" column="79" selection-start-line="226" selection-start-column="79" selection-end-line="226" selection-end-column="79" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning_notes/chapter/var_operate.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="27">
+            <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/graph.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="81">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/usual_algorithms.md" />
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/code/链表/Single_circle_list.py" />
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/introduction.md" />
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/queue.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="459">
+            <caret line="16" column="137" selection-start-line="16" selection-start-column="137" selection-end-line="16" selection-end-column="137" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/tree.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="432">
+            <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/code/排序与搜索/bubble_sort.py" />
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/code/排序与搜索/insert_sort.py" />
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/code/排序与搜索/merge_sort.py" />
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/code/排序与搜索/quick_sort.py" />
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/code/排序与搜索/select_sort.py" />
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/code/排序与搜索/shell_sort.py" />
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/sort.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="27">
+            <caret line="66" column="8" lean-forward="true" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/code/排序与搜索/二分法查找.py" />
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/search.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="189">
+            <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/graph.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="405">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/hash.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="378">
+            <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/code/链表/Single_Links_list.py" />
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/array.md" />
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/code/链表/Double_Links_list.py" />
+    <entry file="file://$PROJECT_DIR$/code/data_structures_algorithms/链表/Double_Links_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1221349943/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3507">
+          <caret line="290" column="54" lean-forward="true" selection-start-line="290" selection-start-column="54" selection-end-line="290" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning_notes/python_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/stack.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="659">
+            <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/linear.md" />
+    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/2_Logistic_regression.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="3429">
+            <caret line="118" column="3" selection-start-line="118" selection-start-column="3" selection-end-line="118" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/math.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="443">
+            <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/matrix.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="378">
+            <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/1_Linear.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="403">
+            <caret line="221" column="33" selection-start-line="221" selection-start-column="33" selection-end-line="221" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="281">
+            <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sidebar.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="135">
+            <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/recursive.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="335">
+            <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_project_notes/chapter/data_dimensionality_reduction.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/links.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1026">
+            <caret line="68" selection-start-line="68" selection-end-line="68" />
             <folding>
-              <element signature="e#6#17#0" />
+              <element signature="e#5#11#0" />
+              <element signature="e#4095#4105#0" />
+              <element signature="e#8123#8131#0" />
+              <element signature="e#10950#10956#0" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/data_structures_algorithms/链表/Single_Links_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/data_structures_algorithms/链表/Single_circle_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/pratical/linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="194" column="32" selection-start-line="194" selection-start-column="32" selection-end-line="194" selection-end-column="32" />
+          <folding>
+            <element signature="e#151#3224#0" />
+            <element signature="e#206#224#0" />
+            <element signature="e#258#301#0" />
+            <element signature="e#333#487#0" />
+            <element signature="e#3321#3339#0" />
+            <element signature="e#3373#3416#0" />
+            <element signature="e#3448#3713#0" />
+            <element signature="e#3745#4030#0" />
+            <element signature="e#4065#4403#0" />
+            <element signature="e#4441#4748#0" />
+            <element signature="e#4791#5174#0" />
+            <element signature="e#5222#5511#0" />
+            <element signature="e#5557#5856#0" />
+          </folding>
         </state>
       </provider>
     </entry>

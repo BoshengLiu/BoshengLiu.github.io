@@ -26,24 +26,27 @@
 ---
 
 * 数据结构与算法
-    
-    * [算法基础](/data_structures_algorithms_notes/chapter/data_structures_alg_base.md)
-    * [链表](/data_structures_algorithms_notes/chapter/links.md)
+     
+    * [链表](/data_structures_algorithms_notes/chapter/links.md)    
+    * [堆栈](/data_structures_algorithms_notes/chapter/stack.md)
     * [队列](/data_structures_algorithms_notes/chapter/queue.md)
-    * [栈](/data_structures_algorithms_notes/chapter/stack.md)
     * [树](/data_structures_algorithms_notes/chapter/tree.md)
-    * [图](/data_structures_algorithms_notes/chapter/map.md)
-    * [搜索与排序](/data_structures_algorithms_notes/chapter/sort_search.md)
+    * [图](/data_structures_algorithms_notes/chapter/graph.md)
+    * [哈希表](/data_structures_algorithms_notes/chapter/hash.md)
+    * [排序](/data_structures_algorithms_notes/chapter/sort.md)
+    * [搜索](/data_structures_algorithms_notes/chapter/search.md)
+    * [递归](/data_structures_algorithms_notes/chapter/recursive.md)
 ---
 
 * 数学基础
-
+    
     * [线性代数](/mathematics_basis_notes/chapter/1_algebra.md)
     * [概率论](/mathematics_basis_notes/chapter/2_probability.md)   
     * [损失函数/评价指标](/mathematics_basis_notes/chapter/3_loss_func.md)
     * [数值计算](/mathematics_basis_notes/chapter/4_numerical_computation.md)    
     * [蒙特卡洛方法与 MCMC 采样](/mathematics_basis_notes/chapter/5_monte_carlo.md)
-    * [其他](/mathematics_basis_notes/chapter/6_other.md)
+    * [数学相关](/mathematics_basis_notes/chapter/math.md)
+    * [矩阵相关](/mathematics_basis_notes/chapter/matrix.md)
 
 ---
 
@@ -69,7 +72,7 @@
 ---
 
 * 机器学习
-
+    
     * [线性回归](/machine_learning_notes/chapter/1_Linear.md)    
     * [逻辑回归](/machine_learning_notes/chapter/2_Logistic_regression.md)    
     * [朴素贝叶斯](/machine_learning_notes/chapter/3_Bayes.md)    

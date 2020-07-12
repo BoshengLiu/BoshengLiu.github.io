@@ -6,7 +6,7 @@ class Node(object):     #定义一个节点
         self.next = None
         self.prev = None
 
-class Double_Links_list(object):    #定义一个双向链表
+class DoubleLinksList(object):    #定义一个双向链表
     def __init__(self,node = None):
         self.__head = node
 
