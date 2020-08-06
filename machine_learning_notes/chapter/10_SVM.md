@@ -1,20 +1,42 @@
 # 支持向量机(SVM)
 # 一、简介
-&#8195;  **支持向量机（support vector machines, SVM**）是一种二分类模型，它的基本模型是定义在特征空间上的间隔最大的线性分类器，间隔最大使它有别于感知机；SVM还包括核技巧，这使它成为实质上的非线性分类器。SVM的的学习策略就是间隔最大化，可形式化为一个求解凸二次规划的问题，也等价于正则化的合页损失函数的最小化问题。SVM的的学习算法就是求解凸二次规划的最优化算法。
+1. 支持向量机(`support vector machines： SVM`）是一种二分类模型。它是定义在特征空间上的、间隔最大的线性分类器。
+    * 间隔最大使得支持向量机有别于感知机。如果数据集是线性可分的，那么感知机获得的模型可能有很多个，而支持向量机选择的是间隔最大的那一个。
+    * 支持向量机还支持核技巧，从而使它成为实质上的非线性分类器。
+    
+2. 支持向量机支持处理线性可分数据集、非线性可分数据集。
+    * 当训练数据线性可分时，通过硬间隔最大化，学习一个线性分类器，即线性可分支持向量机（也称作硬间隔支持向量机）。
+    * 当训练数据近似线性可分时，通过软间隔最大化，学习一个线性分类器，即线性支持向量机（也称为软间隔支持向量机）。
+    * 当训练数据不可分时，通过使用核技巧以及软间隔最大化，学习一个非线性分类器，即非线性支持向量机。
+    
+3. 当输入空间为 [*欧氏空间*](https://zh.wikipedia.org/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%A9%BA%E9%97%B4) 或离散集合、特征空间为 [*希尔伯特空间*](https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9%E7%A9%BA%E9%97%B4) 时，将输入向量从输入空间映射到特征空间，得到特征向量。支持向量机的学习是在特征空间进行的。
+    * 线性可分支持向量机、线性支持向量机假设这两个空间的元素一一对应，并将输入空间中的输入映射为特征空间中的特征向量。
+    * 非线性支持向量机利用一个从输入空间到特征空间的非线性映射将输入映射为特征向量。
+        * 特征向量之间的内积就是核函数，使用核函数可以学习非线性支持向量机。
+        * 非线性支持向量机等价于隐式的在高维的特征空间中学习线性支持向量机，这种方法称作核技巧。
+        
+4. 欧氏空间是有限维度的，希尔伯特空间为无穷维度的。
+    * 欧式空间 $\subseteq$ 希尔伯特空间 $\subseteq$ 内积空间 $\subseteq$ 赋范空间。
+        * 欧式空间，具有很多美好的性质。
+        * 若不局限于有限维度，就来到了希尔伯特空间。从有限到无限是一个质变，很多美好的性质消失了，一些非常有悖常识的现象会出现。
+        * 如果再进一步去掉完备性，就来到了内积空间。
+        * 如果再进一步去掉"角度"的概念，就来到了赋范空间。此时还有“长度”和“距离”的概念。
+    * 越抽象的空间具有的性质越少，在这样的空间中能得到的结论就越少
+    * 如果发现了赋范空间中的某些性质，那么前面那些空间也都具有这个性质。
 
 ---
 
 # 二、线性SVM
 ## 1. 函数间隔与几何间隔
 &#8195;  在正式介绍SVM的模型和损失函数之前，我们还需要先了解下函数间隔和几何间隔的知识。
-* 在分离超平面固定为$w^T +b =0$的时候，$|w^Tx + b |$表示点x到超平面的相对距离。
+* 在分离超平面固定为 $w^T +b =0$ 的时候，$|w^Tx + b |$ 表示点 x 到超平面的相对距离。
 
-* 通过观察$w^Tx+b$和y是否同号，我们判断分类是否正确。这里我们引入函数间隔的概念，定义函数间隔γ′为：
+* 通过观察 $w^Tx+b$ 和 y 是否同号，我们判断分类是否正确。这里我们引入函数间隔的概念，定义函数间隔 γ′为：
 $$\gamma^{'} = y(w^Tx + b)$$
 
-* 可以看到，它就是感知机模型里面的误分类点到超平面距离的分子。对于训练集中m个样本点对应的m个函数间隔的最小值，就是整个训练集的函数间隔。
+* 可以看到，它就是感知机模型里面的误分类点到超平面距离的分子。对于训练集中 m 个样本点对应的 m 个函数间隔的最小值，就是整个训练集的函数间隔。
 
-* 函数间隔并不能正常反应点到超平面的距离，在感知机模型里我们也提到，当分子成比例的增长时，分母也是成倍增长。为了统一度量，我们需要对法向量w加上约束条件，这样我们就得到了几何间隔γ，定义为：
+* 函数间隔并不能正常反应点到超平面的距离，在感知机模型里我们也提到，当分子成比例的增长时，分母也是成倍增长。为了统一度量，我们需要对法向量w加上约束条件，这样我们就得到了几何间隔 γ，定义为：
 $$\gamma = \frac{y(w^Tx + b)}{||w||_2}= \frac{\gamma^{'}}{||w||_2}$$
 几何间隔才是点到超平面的真正距离，感知机模型里用到的距离就是几何距离。
 
@@ -176,9 +198,8 @@ $$\xi_i \geq 0 \;\;(i =1,2,...m)$$
 
 ## 3. 目标函数的优化
 * 和线性可分SVM的优化方式类似，我们首先将软间隔最大化的约束问题用拉格朗日函数转化为无约束问题如下：
-$$
-L(w,b,\xi,\alpha,\mu) = \frac{1}{2}||w||_2^2 +C\sum\limits_{i=1}^{m}\xi_i - \sum\limits_{i=1}^{m}\alpha_i[y_i(w^Tx_i + b) - 1 + \xi_i] - \sum\limits_{i=1}^{m}\mu_i\xi_i
-$$其中$μ_i≥0,α_i≥0,$均为拉格朗日系数。
+$$L(w,b,\xi,\alpha,\mu) = \frac{1}{2}||w||_2^2 +C\sum\limits_{i=1}^{m}\xi_i - \sum\limits_{i=1}^{m}\alpha_i[y_i(w^Tx_i + b) - 1 + \xi_i] - \sum\limits_{i=1}^{m}\mu_i\xi_i$$
+其中$μ_i≥0,α_i≥0,$均为拉格朗日系数。
 
 * 也就是说，我们现在要优化的目标函数是：
 $$\underbrace{min}_{w,b,\xi}\; \underbrace{max}_{\alpha_i \geq 0, \mu_i \geq 0,} L(w,b,\alpha, \xi,\mu)$$
@@ -194,21 +215,15 @@ $$\frac{\partial L}{\partial b} = 0 \;\Rightarrow \sum\limits_{i=1}^{m}\alpha_iy
 $$\frac{\partial L}{\partial \xi} = 0 \;\Rightarrow C- \alpha_i - \mu_i = 0$$
 
 * 接下来，利用上面的三个式子去消除w和b。具体过程如下：
-$$
-\begin{aligned} L(w,b,\xi,\alpha,\mu) 
-& = \frac{1}{2}||w||_2^2 +C\sum\limits_{i=1}^{m}\xi_i - \sum\limits_{i=1}^{m}\alpha_i[y_i(w^Tx_i + b) - 1 + \xi_i] - \sum\limits_{i=1}^{m}\mu_i\xi_i 　\\
-&= \frac{1}{2}||w||_2^2 - \sum\limits_{i=1}^{m}\alpha_i[y_i(w^Tx_i + b) - 1 + \xi_i] + \sum\limits_{i=1}^{m}\alpha_i\xi_i \\& = \frac{1}{2}||w||_2^2 - \sum\limits_{i=1}^{m}\alpha_i[y_i(w^Tx_i + b) - 1] \\
-& = \frac{1}{2}w^Tw-\sum\limits_{i=1}^{m}\alpha_iy_iw^Tx_i - \sum\limits_{i=1}^{m}\alpha_iy_ib + \sum\limits_{i=1}^{m}\alpha_i \\
-& = \frac{1}{2}w^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i -\sum\limits_{i=1}^{m}\alpha_iy_iw^Tx_i - \sum\limits_{i=1}^{m}\alpha_iy_ib + \sum\limits_{i=1}^{m}\alpha_i \\
-& = \frac{1}{2}w^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i - w^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i - \sum\limits_{i=1}^{m}\alpha_iy_ib + \sum\limits_{i=1}^{m}\alpha_i \\
-& = - \frac{1}{2}w^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i - \sum\limits_{i=1}^{m}\alpha_iy_ib + \sum\limits_{i=1}^{m}\alpha_i \\
+$$\begin{aligned} L(w,b,\xi,\alpha,\mu) & = \frac{1}{2}||w||_2^2 +C\sum\limits_{i=1}^{m}\xi_i - \sum\limits_{i=1}^{m}\alpha_i[y_i(w^Tx_i + b) - 1 + \xi_i] - \sum\limits_{i=1}^{m}\mu_i\xi_i\\
+&= \frac{1}{2}||w||_2^2 - \sum\limits_{i=1}^{m}\alpha_i[y_i(w^Tx_i + b) - 1 + \xi_i] + \sum\limits_{i=1}^{m}\alpha_i\xi_i\\& = \frac{1}{2}||w||_2^2 - \sum\limits_{i=1}^{m}\alpha_i[y_i(w^Tx_i + b) - 1]\\
+& = \frac{1}{2}w^Tw-\sum\limits_{i=1}^{m}\alpha_iy_iw^Tx_i - \sum\limits_{i=1}^{m}\alpha_iy_ib + \sum\limits_{i=1}^{m}\alpha_i\\
+& = \frac{1}{2}w^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i -\sum\limits_{i=1}^{m}\alpha_iy_iw^Tx_i - \sum\limits_{i=1}^{m}\alpha_iy_ib + \sum\limits_{i=1}^{m}\alpha_i\\
+& = \frac{1}{2}w^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i - w^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i - \sum\limits_{i=1}^{m}\alpha_iy_ib + \sum\limits_{i=1}^{m}\alpha_i\\
+& = - \frac{1}{2}w^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i - \sum\limits_{i=1}^{m}\alpha_iy_ib + \sum\limits_{i=1}^{m}\alpha_i\\
 & = - \frac{1}{2}w^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i - b\sum\limits_{i=1}^{m}\alpha_iy_i + \sum\limits_{i=1}^{m}\alpha_i \\
 & = -\frac{1}{2}(\sum\limits_{i=1}^{m}\alpha_iy_ix_i)^T(\sum\limits_{i=1}^{m}\alpha_iy_ix_i) - b\sum\limits_{i=1}^{m}\alpha_iy_i + \sum\limits_{i=1}^{m}\alpha_i \\
-& = -\frac{1}{2}\sum\limits_{i=1}^{m}\alpha_iy_ix_i^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i - b\sum\limits_{i=1}^{m}\alpha_iy_i + \sum\limits_{i=1}^{m}\alpha_i \\
-& = -\frac{1}{2}\sum\limits_{i=1}^{m}\alpha_iy_ix_i^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i + \sum\limits_{i=1}^{m}\alpha_i \\
-& = -\frac{1}{2}\sum\limits_{i=1,j=1}^{m}\alpha_iy_ix_i^T\alpha_jy_jx_j + \sum\limits_{i=1}^{m}\alpha_i \\
-& = \sum\limits_{i=1}^{m}\alpha_i - \frac{1}{2}\sum\limits_{i=1,j=1}^{m}\alpha_i\alpha_jy_iy_jx_i^Tx_j \end{aligned}
-$$
+& = -\frac{1}{2}\sum\limits_{i=1}^{m}\alpha_iy_ix_i^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i - b\sum\limits_{i=1}^{m}\alpha_iy_i + \sum\limits_{i=1}^{m}\alpha_i \\& = -\frac{1}{2}\sum\limits_{i=1}^{m}\alpha_iy_ix_i^T\sum\limits_{i=1}^{m}\alpha_iy_ix_i + \sum\limits_{i=1}^{m}\alpha_i \\& = -\frac{1}{2}\sum\limits_{i=1,j=1}^{m}\alpha_iy_ix_i^T\alpha_jy_jx_j + \sum\limits_{i=1}^{m}\alpha_i \\& =\sum\limits_{i=1}^{m}\alpha_i - \frac{1}{2}\sum\limits_{i=1,j=1}^{m}\alpha_i\alpha_jy_iy_jx_i^Tx_j \end{aligned}$$
 
 * 仔细观察可以发现，这个式子和我们前面线性可分SVM的一样。唯一不一样的是约束条件。现在我们看看我们的优化目标的数学形式：
 $$\underbrace{ max }_{\alpha} \sum\limits_{i=1}^{m}\alpha_i - \frac{1}{2}\sum\limits_{i=1,j=1}^{m}\alpha_i\alpha_jy_iy_jx_i^Tx_j$$
@@ -391,18 +406,18 @@ $$f(x) = sign(\sum\limits_{i=1}^{m}\alpha_i^{*}y_iK(x, x_i)+ b^{*})$$
 ---
 
 # 五、SMO算法原理
-&#8195;  在SVM的前三篇里，我们优化的目标函数最终都是一个关于α向量的函数。而怎么极小化这个函数，求出对应的α向量，进而求出分离超平面我们没有讲。本篇就对优化这个关于α向量的函数的SMO算法做一个总结。
+&#8195;  在SVM的前三篇里，我们优化的目标函数最终都是一个关于 α 向量的函数。而怎么极小化这个函数，求出对应的 α 向量，进而求出分离超平面我们没有讲。本篇就对优化这个关于 α 向量的函数的SMO算法做一个总结。
 
 ## 1. 回顾SVM优化目标函数
 * 首先回顾下我们的优化目标函数：
-$$\underbrace{ min }_{\alpha}  \frac{1}{2}\sum\limits_{i=1,j=1}^{m}\alpha_i\alpha_jy_iy_jK(x_i,x_j) - \sum\limits_{i=1}^{m}\alpha_i$$
+$$\underbrace{ min }_{\alpha} \frac{1}{2}\sum\limits_{i=1,j=1}^{m}\alpha_i\alpha_jy_iy_jK(x_i,x_j) - \sum\limits_{i=1}^{m}\alpha_i$$
 
 $$s.t. \; \sum\limits_{i=1}^{m}\alpha_iy_i = 0，\quad0 \leq \alpha_i \leq C$$
 
-* 我们的解要满足的KKT条件的对偶互补条件为：
+* 我们的解要满足的 KKT 条件的对偶互补条件为：
 $$\alpha_{i}^{*}(y_i(w^Tx_i + b) - 1 + \xi_i^{*}) = 0$$
 
-* 根据这个KKT条件的对偶互补条件，我们有：
+* 根据这个 KKT 条件的对偶互补条件，我们有：
 $$\alpha_{i}^{*} = 0 \Rightarrow y_i(w^{*} \bullet \phi(x_i) + b) \geq 1$$
 
 $$0 <\alpha_{i}^{*} < C  \Rightarrow y_i(w^{*} \bullet \phi(x_i) + b) = 1$$
@@ -615,19 +630,15 @@ $$\xi_i^{\lor} \geq 0, \;\; \xi_i^{\land} \geq 0 \;(i = 1,2,..., m)$$
 * 依然和SVM分类模型相似，我们可以用拉格朗日函数将目标优化函数变成无约束的形式，也就是拉格朗日函数的原始形式如下：
 $$
 L(w,b,\alpha^{\lor}, \alpha^{\land}, \xi_i^{\lor}, \xi_i^{\land}, \mu^{\lor}, \mu^{\land}) = \frac{1}{2}||w||_2^2 + C\sum\limits_{i=1}^{m}(\xi_i^{\lor}+ \xi_i^{\land}) + \sum\limits_{i=1}^{m}\alpha^{\lor}(-\epsilon - \xi_i^{\lor} -y_i + w \bullet \phi(x_i) + b) \\ +
- \sum\limits_{i=1}^{m}\alpha^{\land}(y_i - w \bullet \phi(x_i ) - b -\epsilon - \xi_i^{\land}) - \sum\limits_{i=1}^{m}\mu^{\lor}\xi_i^{\lor} - \sum\limits_{i=1}^{m}\mu^{\land}\xi_i^{\land}
-$$其中$ μ^∨≥0,μ^∧≥0,α^∨_i≥0,α^∧_i≥0$均为拉格朗日系数。
+ \sum\limits_{i=1}^{m}\alpha^{\land}(y_i - w \bullet \phi(x_i ) - b -\epsilon - \xi_i^{\land}) - \sum\limits_{i=1}^{m}\mu^{\lor}\xi_i^{\lor} - \sum\limits_{i=1}^{m}\mu^{\land}\xi_i^{\land}$$
+ 其中$μ^∨≥0,μ^∧≥0,α^∨_i≥0,α^∧_i≥0$均为拉格朗日系数。
 
 ## 3. 模型的目标函数的对偶形式
 * 前面讲到了SVM回归模型的目标函数的原始形式,我们的目标是：
-$$
-\underbrace{min}_{w,b,\xi_i^{\lor}, \xi_i^{\land}}\quad \underbrace{max}_{\mu^{\lor} \geq 0, \mu^{\land} \geq 0, \alpha_i^{\lor} \geq 0, \alpha_i^{\land} \geq 0}\;L(w,b,\alpha^{\lor}, \alpha^{\land}, \xi_i^{\lor}, \xi_i^{\land}, \mu^{\lor}, \mu^{\land})
-$$
+$$\underbrace{min}_{w,b,\xi_i^{\lor}, \xi_i^{\land}}\quad \underbrace{max}_{\mu^{\lor} \geq 0, \mu^{\land} \geq 0, \alpha_i^{\lor} \geq 0, \alpha_i^{\land} \geq 0}\;L(w,b,\alpha^{\lor}, \alpha^{\land}, \xi_i^{\lor}, \xi_i^{\land}, \mu^{\lor}, \mu^{\land})$$
 
 * 和SVM分类模型一样，这个优化目标也满足KKT条件，也就是说，我们可以通过拉格朗日对偶将我们的优化问题转化为等价的对偶问题来求解如下：
-$$
-\underbrace{max}_{\mu^{\lor} \geq 0, \mu^{\land} \geq 0, \alpha_i^{\lor} \geq 0, \alpha_i^{\land} \geq 0}\quad\underbrace{min}_{w,b,\xi_i^{\lor}, \xi_i^{\land}}\;L(w,b,\alpha^{\lor}, \alpha^{\land}, \xi_i^{\lor}, \xi_i^{\land}, \mu^{\lor}, \mu^{\land})
-$$
+$$\underbrace{max}_{\mu^{\lor} \geq 0, \mu^{\land} \geq 0, \alpha_i^{\lor} \geq 0, \alpha_i^{\land} \geq 0}\quad\underbrace{min}_{w,b,\xi_i^{\lor}, \xi_i^{\land}}\;L(w,b,\alpha^{\lor}, \alpha^{\land}, \xi_i^{\lor}, \xi_i^{\land}, \mu^{\lor}, \mu^{\land})$$
 
 * 我们可以先求优化函数对于$w,b,ξ^∨_i,ξ^∧_i$的极小值, 接着再求拉格朗日乘子$α^∨,α^∧,μ^∨,μ^∧$的极大值。
 
@@ -641,9 +652,7 @@ $$\frac{\partial L}{\partial \xi_i^{\lor}} = 0 \;\Rightarrow C-\alpha^{\lor}-\mu
 $$\frac{\partial L}{\partial \xi_i^{\land}} = 0 \;\Rightarrow C-\alpha^{\land}-\mu^{\land} = 0$$
 
 * 把上面4个式子带入$L(w,b,α^∨,α^∧,ξ^∨_i,ξ^∧_i,μ^∨,μ^∧)$去消去$w,b,ξ^∨_i,ξ^∧_i$。最终得到的对偶形式为：
-$$
-\underbrace{ max }_{\alpha^{\lor}, \alpha^{\land}}\; -\sum\limits_{i=1}^{m}(\epsilon-y_i)\alpha_i^{\land}+ (\epsilon+y_i)\alpha_i^{\lor}) - \frac{1}{2}\sum\limits_{i=1,j=1}^{m}(\alpha_i^{\land} - \alpha_i^{\lor})(\alpha_j^{\land} - \alpha_j^{\lor})K_{ij}
-$$
+$$\underbrace{ max }_{\alpha^{\lor}, \alpha^{\land}}\; -\sum\limits_{i=1}^{m}(\epsilon-y_i)\alpha_i^{\land}+ (\epsilon+y_i)\alpha_i^{\lor}) - \frac{1}{2}\sum\limits_{i=1,j=1}^{m}(\alpha_i^{\land} - \alpha_i^{\lor})(\alpha_j^{\land} - \alpha_j^{\lor})K_{ij}$$
 
 $$s.t. \; \sum\limits_{i=1}^{m}(\alpha_i^{\land} - \alpha_i^{\lor}) = 0$$
 
@@ -751,7 +760,7 @@ max(0,1-y_{i}(\omega^{T}x_i+b)) +\frac{\lambda}{2} ||\omega||^2$$
 * 当特征维数 d 比较小，样本数 m 特别大时, 支持向量机性能通常不如深度神经网络。
 
 ## 10. 讲一下SVR(支持向量回归)
-&#8195;  传统回归模型的损失是计算模型输出f(x)和真实值y之间的差别，当且仅当f(x)=y时，损失才为零；但是SVR假设我们能容忍f(x)和y之间有一定的偏差，仅当f(x)和y之间的偏差大于该值时才计算损失。
+&#8195;  SVR回归，就是找到一个回归平面，让一个集合的所有数据到该平面的距离最近。传统回归模型的损失是计算模型输出f(x)和真实值y之间的差别，当且仅当f(x)=y时，损失才为零；但是SVR假设我们能容忍f(x)和y之间有一定的偏差，仅当f(x)和y之间的偏差大于该值时才计算损失。
 
 ## 11. 支持向量机的优缺点
 ### 优点

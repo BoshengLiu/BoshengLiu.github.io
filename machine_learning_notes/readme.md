@@ -57,19 +57,19 @@
 
 文档共14个部分。分别为：
 
-* 1. 线性回归
-* 2. 逻辑回归
-* 3. 朴素贝叶斯
-* 4. 决策树
-* 5. 集成学习
-* 6. 随机森林
-* 7. AdaBoost
-* 8. GBDT
-* 9. XgBoost
-* 10. SVM
-* 11. KNN
-* 12. K-Means
-* 13. 关联算法
-* 14. 协同过滤
+* 线性回归
+* 逻辑回归
+* 朴素贝叶斯
+* 决策树
+* 集成学习
+* 随机森林
+* AdaBoost
+* GBDT
+* XgBoost
+* SVM
+* KNN
+* K-Means
+* 关联算法
+* 协同过滤
 
 **email: boshengliu.sty0@gmail.com** 

@@ -28,14 +28,14 @@
 * 数据结构与算法
      
     * [链表](/data_structures_algorithms_notes/chapter/links.md)    
-    * [堆栈](/data_structures_algorithms_notes/chapter/stack.md)
+    * [栈](/data_structures_algorithms_notes/chapter/stack.md)
     * [队列](/data_structures_algorithms_notes/chapter/queue.md)
     * [树](/data_structures_algorithms_notes/chapter/tree.md)
     * [图](/data_structures_algorithms_notes/chapter/graph.md)
-    * [哈希表](/data_structures_algorithms_notes/chapter/hash.md)
-    * [排序](/data_structures_algorithms_notes/chapter/sort.md)
-    * [搜索](/data_structures_algorithms_notes/chapter/search.md)
+    * [哈希表](/data_structures_algorithms_notes/chapter/hash.md)   
     * [递归](/data_structures_algorithms_notes/chapter/recursive.md)
+    * [排序](/data_structures_algorithms_notes/chapter/sort.md)
+    * [搜索](/data_structures_algorithms_notes/chapter/search&list.md)
 ---
 
 * 数学基础
@@ -43,10 +43,17 @@
     * [线性代数](/mathematics_basis_notes/chapter/1_algebra.md)
     * [概率论](/mathematics_basis_notes/chapter/2_probability.md)   
     * [损失函数/评价指标](/mathematics_basis_notes/chapter/3_loss_func.md)
-    * [数值计算](/mathematics_basis_notes/chapter/4_numerical_computation.md)    
+    * [梯度下降与梯度上升](/mathematics_basis_notes/chapter/4_1_gradient_descent.md)
+    * [极大似然估计](/mathematics_basis_notes/chapter/4_2_极大似然估计.md)    
+    * [最小二乘法](/mathematics_basis_notes/chapter/4_3_最小二乘法.md)    
+    * [二阶矩阵与海森矩阵](/mathematics_basis_notes/chapter/4_4_二阶矩阵与海森矩阵.md)    
+    * [牛顿法](/mathematics_basis_notes/chapter/4_5_牛顿法.md)    
+    * [拟牛顿法](/mathematics_basis_notes/chapter/4_6_拟牛顿法.md)    
+    * [约束优化](/mathematics_basis_notes/chapter/4_7_约束优化.md)     
     * [蒙特卡洛方法与 MCMC 采样](/mathematics_basis_notes/chapter/5_monte_carlo.md)
-    * [数学相关](/mathematics_basis_notes/chapter/math.md)
-    * [矩阵相关](/mathematics_basis_notes/chapter/matrix.md)
+    * [数学相关](/mathematics_basis_notes/chapter/6_math.md)
+    * [矩阵相关](/mathematics_basis_notes/chapter/7_matrix.md)
+    * [概率论知识](/mathematics_basis_notes/chapter/8_probability.md)
 
 ---
 
