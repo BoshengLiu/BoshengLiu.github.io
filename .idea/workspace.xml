@@ -7,8 +7,10 @@
       <change afterPath="$PROJECT_DIR$/code/machine_learning/决策树.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code/数据结构/双端队列.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code/数据结构/循环队列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/数据结构/树/二叉查找树.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code/数据结构/顺序队列.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code/算法/台阶递归.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/算法/哈希算法.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code/算法/排序/sort.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code/算法/搜索/跳表.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code/逻辑回归/逻辑回归.py" afterDir="false" />
@@ -17,6 +19,7 @@
       <change afterPath="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/search&amp;list.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/skiplist.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/实际问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_learning_notes/chapter/感知机.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_1_gradient_descent.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_2_极大似然估计.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_3_最小二乘法.md" afterDir="false" />
@@ -25,7 +28,6 @@
       <change afterPath="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_6_拟牛顿法.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_7_约束优化.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mathematics_basis_notes/chapter/7_matrix.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathematics_basis_notes/chapter/8_probability.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.idea/Blog.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.idea/deployment.xml" beforeDir="false" />
@@ -266,11 +268,12 @@
     <SUITE FILE_PATH="coverage/myblogs$_.coverage" NAME="栈-数组实现 Coverage Results" MODIFIED="1595496220795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/数据结构" />
     <SUITE FILE_PATH="coverage/Blog$apriori.coverage" NAME="apriori Coverage Results" MODIFIED="1591262005372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommen_algorithm" />
     <SUITE FILE_PATH="coverage/myblogs$double_links_list.coverage" NAME="double_links_list Coverage Results" MODIFIED="1594610739018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/practical" />
+    <SUITE FILE_PATH="coverage/myblogs$tree.coverage" NAME="tree Coverage Results" MODIFIED="1597151509209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/数据结构/树" />
     <SUITE FILE_PATH="coverage/myblogs$SVM.coverage" NAME="SVM Coverage Results" MODIFIED="1595315414099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/machine_learning" />
     <SUITE FILE_PATH="coverage/myblogs$linked_list__1_.coverage" NAME="linked_list (1) Coverage Results" MODIFIED="1594607123121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/pratical" />
     <SUITE FILE_PATH="coverage/myblogs$sort.coverage" NAME="sort Coverage Results" MODIFIED="1596446753956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/算法/排序" />
     <SUITE FILE_PATH="coverage/myblogs$__1_.coverage" NAME="栈 (1) Coverage Results" MODIFIED="1595496200035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/数据结构" />
-    <SUITE FILE_PATH="coverage/myblogs$.coverage" NAME="跳表 Coverage Results" MODIFIED="1596621243312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/算法/搜索" />
+    <SUITE FILE_PATH="coverage/myblogs$.coverage" NAME="哈希算法 Coverage Results" MODIFIED="1596795748575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/算法" />
     <SUITE FILE_PATH="coverage/Blog$.coverage" NAME="线性回归 Coverage Results" MODIFIED="1590144951335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning" />
     <SUITE FILE_PATH="coverage/myblogs$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1596527785386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/算法/排序" />
     <SUITE FILE_PATH="coverage/Blog$test.coverage" NAME="test Coverage Results" MODIFIED="1590376182702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning" />
@@ -293,30 +296,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/算法/排序/sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="114" column="56" selection-start-line="114" selection-start-column="56" selection-end-line="114" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="跳表.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/算法/搜索/跳表.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2224">
-              <caret line="103" column="30" lean-forward="true" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hash.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/hash.md">
+      <file leaf-file-name="8_GBDT.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/8_GBDT.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="918">
-                <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <first_editor relative-caret-position="27">
+                <caret line="56" selection-start-line="56" selection-end-line="56" />
+                <folding>
+                  <element signature="e#7#17#0" />
+                  <element signature="e#635#649#0" />
+                  <element signature="e#1404#1416#0" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6_math.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/6_math.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="135">
+                <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+                <folding>
+                  <element signature="e#7#19#0" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -345,26 +350,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="E:/Learning materials/数据结构与算法代码/链表/链表反转.py" />
-        <option value="E:/Learning materials/数据结构与算法代码/链表/两两交换链表中的节点.py" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/probability.py" />
-        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/2_Logistic_regression.md" />
-        <option value="$PROJECT_DIR$/code/逻辑回归/逻辑回归.py" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/gradient_descent.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/5_a.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/numerical_computation.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/5_monte_carlo.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_2_极大似然估计.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_3_最小二乘法.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_4_二阶矩阵与海森矩阵.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_5_牛顿法.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_6_拟牛顿法.md" />
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_7_约束优化.md" />
         <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_1_gradient_descent.md" />
         <option value="$PROJECT_DIR$/code/machine_learning/决策树.py" />
-        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/4_Decision_tree.md" />
         <option value="$PROJECT_DIR$/machine_learning_notes/chapter/10_SVM_.md" />
         <option value="$PROJECT_DIR$/code/machine_learning/SVM.py" />
         <option value="$PROJECT_DIR$/code/SVM/高斯核函数.py" />
@@ -384,18 +371,36 @@
         <option value="$PROJECT_DIR$/code/数据结构/顺序队列.py" />
         <option value="$PROJECT_DIR$/code/数据结构/双端队列.py" />
         <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/queue.md" />
-        <option value="$PROJECT_DIR$/_sidebar.md" />
         <option value="$PROJECT_DIR$/code/数据结构/循环队列.py" />
         <option value="$PROJECT_DIR$/code/算法/排序/sort.py" />
         <option value="$PROJECT_DIR$/code/算法/排序/quick_sort.py" />
         <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/sort.md" />
         <option value="$PROJECT_DIR$/code/算法/搜索/二分法查找.py" />
         <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/search.md" />
-        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/实际问题.md" />
         <option value="$PROJECT_DIR$/code/算法/搜索/跳表.py" />
         <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/skiplist.md" />
         <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/search&amp;list.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/实际问题.md" />
+        <option value="$PROJECT_DIR$/code/算法/哈吸收峰.py" />
+        <option value="$PROJECT_DIR$/code/算法/哈希算法.py" />
+        <option value="$PROJECT_DIR$/code/数据结构/树/二叉查找树.py" />
+        <option value="$PROJECT_DIR$/code/数据结构/树/tree.py" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/tree.md" />
         <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/hash.md" />
+        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/13_Associate.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/readme.md" />
+        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/14_Collaborative_filtering.md" />
+        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/4_Decision_tree.md" />
+        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/3_Bayes.md" />
+        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/7_Adaboost.md" />
+        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/8_GBDT.md" />
+        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/1_Linear.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/deep_learning_notes/chapter/感知机.md" />
+        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/8_probability.md" />
+        <option value="$PROJECT_DIR$/_sidebar.md" />
+        <option value="E:/Learning materials/Python实现音乐推荐系统/推荐系统.ipynb" />
+        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/6_math.md" />
       </list>
     </option>
   </component>
@@ -409,10 +414,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="195" />
-    <option name="width" value="1515" />
-    <option name="height" value="960" />
+    <option name="x" value="48" />
+    <option name="y" value="277" />
+    <option name="width" value="1894" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -432,17 +437,12 @@
             <path>
               <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="machine_learning_notes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structures_algorithms_notes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structures_algorithms_notes" type="462c0819:PsiDirectoryNode" />
+              <item name="machine_learning_notes" type="462c0819:PsiDirectoryNode" />
               <item name="chapter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -461,7 +461,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="E:/Learning materials/数据结构与算法代码" />
+    <property name="last_opened_file_path" value="E:/Learning materials/实例与赛题/音乐推荐系统" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
@@ -488,7 +488,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.跳表">
+  <component name="RunManager" selected="Python.tree">
     <configuration name="栈-数组实现" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -522,120 +522,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/算法/搜索/二分法查找.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="跳表" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Blog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/算法/搜索" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/算法/搜索/跳表.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="递归" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Blog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/算法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\myblogs\code\算法\台阶递归.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="逻辑回归" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Blog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/逻辑回归" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/逻辑回归/逻辑回归.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="线性回归" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Blog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine_learning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine_learning/线性回归.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="优化器" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Blog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/library/pytorch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/library/pytorch/优化器.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="两两交换链表中的节点" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Blog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/Learning materials/数据结构与算法代码/链表" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:/Learning materials/数据结构与算法代码/链表/两两交换链表中的节点.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -831,6 +717,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="哈希算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/算法/哈希算法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="单向链表" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -845,6 +750,120 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="E:/Learning materials/数据结构与算法代码/链表/单向链表.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="跳表" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/算法/搜索" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/算法/搜索/跳表.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="递归" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\myblogs\code\算法\台阶递归.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="逻辑回归" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/逻辑回归" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/逻辑回归/逻辑回归.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="线性回归" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine_learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine_learning/线性回归.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="优化器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/library/pytorch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/library/pytorch/优化器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="两两交换链表中的节点" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/Learning materials/数据结构与算法代码/链表" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/Learning materials/数据结构与算法代码/链表/两两交换链表中的节点.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -888,16 +907,35 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/数据结构/树" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/数据结构/树/tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.栈-数组实现" />
       <item itemvalue="Python.sort" />
       <item itemvalue="Python.quick_sort" />
       <item itemvalue="Python.二分法查找" />
-      <item itemvalue="Python.跳表" />
+      <item itemvalue="Python.tree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.跳表" />
+        <item itemvalue="Python.tree" />
         <item itemvalue="Python.二分法查找" />
         <item itemvalue="Python.quick_sort" />
         <item itemvalue="Python.sort" />
@@ -931,25 +969,25 @@
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14812332" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32668713" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32941177" />
+      <window_info anchor="right" id="Database" order="1" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Python Console" order="3" weight="0.59869283" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.2640523" />
-      <window_info anchor="right" id="Terminal" order="6" weight="0.2841823" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14410187" />
-      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="1" weight="0.3297587" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.4745098" />
       <window_info anchor="right" auto_hide="true" id="SciView" order="2" show_stripe_button="false" type="FLOATING" weight="0.45241287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2497979" />
+      <window_info anchor="right" id="Terminal" order="6" weight="0.2841823" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39748427" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Remote Host" order="0" weight="0.32983023" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" id="Run" order="7" weight="0.37533513" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39748427" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32941177" />
@@ -959,24 +997,24 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Remote Host" order="0" weight="0.32983023" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123324394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2497979" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32668713" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="right" id="Run" order="6" weight="0.33914208" />
-      <window_info anchor="bottom" id="Python Console" order="3" weight="0.5124183" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32941177" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Terminal" order="7" weight="0.30093834" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="right" id="SciView" order="2" weight="0.4349232" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39869282" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.5124183" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -991,174 +1029,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/4_6_拟牛顿法.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="2" selection-start-column="2" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/4_7_约束优化.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="2" selection-start-column="2" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/numerical_computation.md" />
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/6_math.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="659">
-            <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/7_matrix.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="378">
-            <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/8_probability.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/4_1_gradient_descent.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor>
-            <caret column="11" selection-start-column="11" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/1_algebra.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/machine_learning/决策树.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/4_Decision_tree.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="270">
-            <caret line="97" column="208" selection-start-line="97" selection-start-column="208" selection-end-line="97" selection-end-column="208" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/10_SVM_.md" />
-    <entry file="file://$PROJECT_DIR$/code/machine_learning/SVM.py" />
-    <entry file="file://$PROJECT_DIR$/code/SVM/高斯核函数.py" />
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/graph.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/10_SVM.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="54">
-            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/python/内置函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/数据结构/栈/栈.py" />
-    <entry file="file://$PROJECT_DIR$/code/数据结构/链表/单向循环链表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4995" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/数据结构/链表/双向链表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1337">
-          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/links.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-296">
-            <caret line="462" column="40" lean-forward="true" selection-start-line="462" selection-start-column="40" selection-end-line="462" selection-end-column="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/python3.7/Lib/site-packages/multiprocess/queues.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9086" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/stack.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="2268">
-            <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/数据结构/双端队列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="47" selection-start-line="47" selection-end-line="85" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/数据结构/栈的实现.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/数据结构/双端队列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/数据结构/顺序队列.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2430">
@@ -1181,26 +1051,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="216">
             <caret line="220" selection-start-line="220" selection-end-line="220" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sidebar.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="513">
-            <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="189">
-            <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
@@ -1241,13 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/算法/搜索/二分法查找.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-719">
-          <caret line="73" selection-start-line="73" selection-end-line="85" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1327,33 +1170,123 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/实际问题.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="92">
-            <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1458">
+            <caret line="122" selection-start-line="122" selection-end-line="122" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/算法/排序/sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="114" column="56" selection-start-line="114" selection-start-column="56" selection-end-line="114" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/算法/搜索/跳表.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2224">
-          <caret line="103" column="30" lean-forward="true" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+        <state relative-caret-position="2781">
+          <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/skiplist.md">
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1221349943/_md5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1107">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python3.7/Lib/hashlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/算法/哈希算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/算法/排序/sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/算法/搜索/二分法查找.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="73" selection-start-line="73" selection-end-line="85" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/数据结构/树/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/数据结构/树/二叉查找树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/tree.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="27">
+            <caret line="292" column="5" selection-start-line="292" selection-start-column="5" selection-end-line="292" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/stack.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="659">
+            <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/13_Associate.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="551">
-            <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+          <first_editor relative-caret-position="1577">
+            <caret line="242" column="132" selection-start-line="242" selection-start-column="132" selection-end-line="242" selection-end-column="132" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/hash.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="115" column="27" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_coverpage.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="351">
+            <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
@@ -1362,18 +1295,176 @@
     <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/search&amp;list.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="470">
+          <first_editor relative-caret-position="5427">
             <caret line="185" selection-start-line="185" selection-end-line="185" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/hash.md">
+    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/14_Collaborative_filtering.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="227">
+            <caret line="97" column="93" selection-start-line="97" selection-start-column="93" selection-end-line="97" selection-end-column="93" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/skiplist.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="659">
+            <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/4_Decision_tree.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="918">
-            <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <first_editor relative-caret-position="1327">
+            <caret line="387" column="9" selection-start-line="387" selection-start-column="9" selection-end-line="387" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="324">
+            <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="44" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/3_Bayes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="324">
+            <caret line="158" column="43" selection-start-line="158" selection-start-column="43" selection-end-line="158" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/7_Adaboost.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="470">
+            <caret line="190" selection-start-line="190" selection-end-line="190" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/1_algebra.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/1_Linear.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2997">
+            <caret line="111" column="61" selection-start-line="111" selection-start-column="61" selection-end-line="111" selection-end-column="61" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/2_probability.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="27">
+            <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/8_probability.md" />
+    <entry file="file://$PROJECT_DIR$/deep_learning_notes/chapter/感知机.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="3618">
+            <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sidebar.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="270">
+            <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Learning materials/Python实现音乐推荐系统/recommendation_engines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13799">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#62#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Learning materials/Python实现音乐推荐系统/推荐系统.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Learning materials/Python实现音乐推荐系统/Recommenders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5174">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/8_GBDT.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="27">
+            <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <folding>
+              <element signature="e#7#17#0" />
+              <element signature="e#635#649#0" />
+              <element signature="e#1404#1416#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/6_math.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="135">
+            <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+            <folding>
+              <element signature="e#7#19#0" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>

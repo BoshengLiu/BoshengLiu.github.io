@@ -30,12 +30,13 @@
     * [链表](/data_structures_algorithms_notes/chapter/links.md)    
     * [栈](/data_structures_algorithms_notes/chapter/stack.md)
     * [队列](/data_structures_algorithms_notes/chapter/queue.md)
+    * [跳表](/data_structures_algorithms_notes/chapter/skiplist.md)
+    * [哈希表](/data_structures_algorithms_notes/chapter/hash.md)  
     * [树](/data_structures_algorithms_notes/chapter/tree.md)
-    * [图](/data_structures_algorithms_notes/chapter/graph.md)
-    * [哈希表](/data_structures_algorithms_notes/chapter/hash.md)   
+    * [图](/data_structures_algorithms_notes/chapter/graph.md)     
     * [递归](/data_structures_algorithms_notes/chapter/recursive.md)
     * [排序](/data_structures_algorithms_notes/chapter/sort.md)
-    * [搜索](/data_structures_algorithms_notes/chapter/search&list.md)
+    * [二分法查找](/data_structures_algorithms_notes/chapter/search&list.md)
 ---
 
 * 数学基础
@@ -53,7 +54,6 @@
     * [蒙特卡洛方法与 MCMC 采样](/mathematics_basis_notes/chapter/5_monte_carlo.md)
     * [数学相关](/mathematics_basis_notes/chapter/6_math.md)
     * [矩阵相关](/mathematics_basis_notes/chapter/7_matrix.md)
-    * [概率论知识](/mathematics_basis_notes/chapter/8_probability.md)
 
 ---
 
@@ -99,7 +99,8 @@
 
 * 深度学习
 
-    * [简介](/deep_learning_notes/chapter/introduction.md)    
+    * [简介](/deep_learning_notes/chapter/introduction.md)
+    * [感知机](/deep_learning_notes/chapter/感知机.md)
     * [深度前馈神经网络](/deep_learning_notes/chapter/deep_forward.md)    
     * [反向传播算法](/deep_learning_notes/chapter/BP.md)   
     * [正则化](/deep_learning_notes/chapter/regularization.md)   

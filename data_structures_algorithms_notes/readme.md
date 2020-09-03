@@ -31,7 +31,7 @@
 
 # 导图
 
-![summary.PNG](https://upload-images.jianshu.io/upload_images/16911112-e68fc1f79b82e14f.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/16911112-e68fc1f79b82e14f.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 补充
 * 本文档所有的 Python 代码都是基于Python 3.7，在Python IDLE上运行的效果，操作系统为 Win10。
