@@ -31,12 +31,13 @@
     * [栈](/data_structures_algorithms_notes/chapter/stack.md)
     * [队列](/data_structures_algorithms_notes/chapter/queue.md)
     * [跳表](/data_structures_algorithms_notes/chapter/skiplist.md)
-    * [哈希表](/data_structures_algorithms_notes/chapter/hash.md)  
-    * [树](/data_structures_algorithms_notes/chapter/tree.md)
-    * [图](/data_structures_algorithms_notes/chapter/graph.md)     
+    * [哈希表](/data_structures_algorithms_notes/chapter/hash.md)     
     * [递归](/data_structures_algorithms_notes/chapter/recursive.md)
     * [排序](/data_structures_algorithms_notes/chapter/sort.md)
     * [二分法查找](/data_structures_algorithms_notes/chapter/search&list.md)
+    * [树](/data_structures_algorithms_notes/chapter/tree.md)
+    * [图](/data_structures_algorithms_notes/chapter/graph.md)  
+    * [实际问题](/data_structures_algorithms_notes/chapter/real_problem.md)
 ---
 
 * 数学基础
@@ -72,6 +73,7 @@
     * [Matplotlib](/library_usage_notes/chapter/matplotlib.md)
     * [Seaborn](/library_usage_notes/chapter/seaborn.md)
     * [MySQL](/library_usage_notes/chapter/mysql.md)
+    * [scikit-learn](/library_usage_notes/chapter/scikit_learn.md)
     * [Feature Selector](/library_usage_notes/chapter/feature_selector.md)
     * [Pytorch](/library_usage_notes/chapter/pytorch.md)
     * [Tensorflow](/library_usage_notes/chapter/tensorflow.md)
@@ -115,11 +117,10 @@
 ---
 
 * 拓展
-
+    
     * [半监督学习](/expand_algorithms/chapter/semi_supervise.md)
     * [EM算法](/expand_algorithms/chapter/EM.md)
     * [最大熵算法](/expand_algorithms/chapter/maxent.md)
     * [隐马尔可夫模型](/expand_algorithms/chapter/HMM.md)
     * [概率图模型](/expand_algorithms/chapter/CRF.md)
     * [边际概率推断](/expand_algorithms/chapter/prob_infer.md)
-    

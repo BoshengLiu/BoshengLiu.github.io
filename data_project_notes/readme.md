@@ -18,14 +18,9 @@
 
 本文共4个部分，分别为：
 
-* 数据探索
-* 特征工程
-* 模型选择
-* 数据降维
-
-# [数据探索](/data_project_notes/chapter/data_explore.md)   
-# [特征工程](/data_project_notes/chapter/feature_selection.md)    
-# [模型选择](/data_project_notes/chapter/model_selection.md)    
-# [数据降维](/data_project_notes/chapter/data_dimensionality_reduction.md)
+*  [数据探索](/data_project_notes/chapter/data_explore.md)   
+* [特征工程](/data_project_notes/chapter/feature_selection.md)    
+* [模型选择](/data_project_notes/chapter/model_selection.md)    
+* [数据降维](/data_project_notes/chapter/data_dimensionality_reduction.md)
 
 **email: boshengliu.sty0@gmail.com** 

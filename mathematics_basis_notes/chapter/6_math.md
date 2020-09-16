@@ -150,13 +150,3 @@ $$H(x)=-sum(p(x)log_2p(x))\Longrightarrow H(x)=-\sum_{i=1}^{n}p(x_i)log(p(x_i))$
 
 * 相关：相关系数与相关距离。
 
-
-
-
-
-
-
-
-
-
-

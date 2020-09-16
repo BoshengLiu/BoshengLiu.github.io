@@ -6,15 +6,16 @@
 
 # 拓展
 
+强化学习、主动学习、迁移学习、推荐算法。
+
 # 目录
 
-文档一共6个部分。分别为：
 
-* 半监督学习
-* EM算法
-* 最大熵算法
-* 隐马尔可夫模型
-* 概率图模型
-* 边际概率推断
+* [半监督学习](/expand_algorithms/chapter/semi_supervise.md)
+* [EM算法](/expand_algorithms/chapter/EM.md)
+* [最大熵算法](/expand_algorithms/chapter/maxent.md)
+* [隐马尔可夫模型](/expand_algorithms/chapter/HMM.md)
+* [概率图模型](/expand_algorithms/chapter/CRF.md)
+* [边际概率推断](/expand_algorithms/chapter/prob_infer.md)
 
 **email: boshengliu.sty0@gmail.com** 

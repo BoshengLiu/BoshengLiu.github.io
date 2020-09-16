@@ -55,21 +55,20 @@
 
 # 目录
 
-文档共14个部分。分别为：
 
-* 线性回归
-* 逻辑回归
-* 朴素贝叶斯
-* 决策树
-* 集成学习
-* 随机森林
-* AdaBoost
-* GBDT
-* XgBoost
-* SVM
-* KNN
-* K-Means
-* 关联算法
-* 协同过滤
+* [线性回归](/machine_learning_notes/chapter/1_Linear.md)
+* [逻辑回归](/machine_learning_notes/chapter/2_Logistic_regression.md)
+* [朴素贝叶斯](/machine_learning_notes/chapter/3_Bayes.md)
+* [决策树](/machine_learning_notes/chapter/4_Decision_tree.md)
+* [集成学习](/machine_learning_notes/chapter/5_Integrated_learning.md)
+* [随机森林](/machine_learning_notes/chapter/6_Random_forest.md)
+* [AdaBoost](/machine_learning_notes/chapter/7_Adaboost.md)
+* [GBDT](/machine_learning_notes/chapter/8_GBDT.md)
+* [XgBoost](/machine_learning_notes/chapter/9_XgBoost.md)    
+* [SVM](/machine_learning_notes/chapter/10_SVM.md)    
+* [KNN](/machine_learning_notes/chapter/11_KNN.md)    
+* [K-Means](/machine_learning_notes/chapter/12_K-Means.md)    
+* [关联算法](/machine_learning_notes/chapter/13_Associate.md)    
+* [协同过滤](/machine_learning_notes/chapter/14_Collaborative_filtering.md)
 
 **email: boshengliu.sty0@gmail.com** 

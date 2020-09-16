@@ -15,11 +15,13 @@
       <change afterPath="$PROJECT_DIR$/code/算法/搜索/跳表.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code/逻辑回归/逻辑回归.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/hash.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/real_problem.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/recursive.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/search&amp;list.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/skiplist.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/实际问题.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/deep_learning_notes/chapter/感知机.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expand_algorithms/chapter/LFM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library_usage_notes/chapter/scikit_learn.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_1_gradient_descent.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_2_极大似然估计.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_3_最小二乘法.md" afterDir="false" />
@@ -296,34 +298,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="8_GBDT.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/8_GBDT.md">
+      <file leaf-file-name="_sidebar.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_sidebar.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="27">
-                <caret line="56" selection-start-line="56" selection-end-line="56" />
-                <folding>
-                  <element signature="e#7#17#0" />
-                  <element signature="e#635#649#0" />
-                  <element signature="e#1404#1416#0" />
-                </folding>
+              <first_editor relative-caret-position="3132">
+                <caret line="116" column="3" lean-forward="true" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6_math.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/6_math.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="135">
-                <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
-                <folding>
-                  <element signature="e#7#19#0" />
-                </folding>
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="python_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_learning_notes/python_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -350,19 +344,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/4_1_gradient_descent.md" />
-        <option value="$PROJECT_DIR$/code/machine_learning/决策树.py" />
-        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/10_SVM_.md" />
-        <option value="$PROJECT_DIR$/code/machine_learning/SVM.py" />
-        <option value="$PROJECT_DIR$/code/SVM/高斯核函数.py" />
-        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/10_SVM.md" />
-        <option value="$PROJECT_DIR$/code/算法/递归.py" />
-        <option value="$PROJECT_DIR$/code/算法/台阶递归.py" />
-        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/recursive.md" />
-        <option value="$PROJECT_DIR$/code/数据结构/栈/顺序栈.py" />
-        <option value="$PROJECT_DIR$/code/数据结构/栈/栈.py" />
-        <option value="$PROJECT_DIR$/code/数据结构/队列.py" />
-        <option value="$PROJECT_DIR$/code/数据结构/链表/双向链表.py" />
         <option value="$PROJECT_DIR$/code/数据结构/栈.py" />
         <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/links.md" />
         <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/stack.md" />
@@ -388,7 +369,6 @@
         <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/tree.md" />
         <option value="$PROJECT_DIR$/data_structures_algorithms_notes/chapter/hash.md" />
         <option value="$PROJECT_DIR$/machine_learning_notes/chapter/13_Associate.md" />
-        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/readme.md" />
         <option value="$PROJECT_DIR$/machine_learning_notes/chapter/14_Collaborative_filtering.md" />
         <option value="$PROJECT_DIR$/machine_learning_notes/chapter/4_Decision_tree.md" />
         <option value="$PROJECT_DIR$/machine_learning_notes/chapter/3_Bayes.md" />
@@ -398,9 +378,23 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/deep_learning_notes/chapter/感知机.md" />
         <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/8_probability.md" />
-        <option value="$PROJECT_DIR$/_sidebar.md" />
         <option value="E:/Learning materials/Python实现音乐推荐系统/推荐系统.ipynb" />
+        <option value="$PROJECT_DIR$/expand_algorithms/chapter/LMF.py" />
+        <option value="E:/Github/maching_learning_pratice/.git/config" />
+        <option value="$PROJECT_DIR$/data_project_notes/readme.md" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/deep_learning_notes/readme.md" />
+        <option value="$PROJECT_DIR$/expand_algorithms/readme.md" />
+        <option value="$PROJECT_DIR$/library_usage_notes/chapter/scikit_learn.md" />
+        <option value="$PROJECT_DIR$/library_usage_notes/readme.md" />
+        <option value="$PROJECT_DIR$/machine_learning_notes/readme.md" />
+        <option value="$PROJECT_DIR$/mathematics_basis_notes/readme.md" />
         <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/6_math.md" />
+        <option value="$PROJECT_DIR$/python_learning_notes/readme.md" />
+        <option value="$PROJECT_DIR$/data_structures_algorithms_notes/readme.md" />
+        <option value="$PROJECT_DIR$/mathematics_basis_notes/chapter/7_matrix.md" />
+        <option value="$PROJECT_DIR$/machine_learning_notes/chapter/15_callback.md" />
+        <option value="$PROJECT_DIR$/_sidebar.md" />
       </list>
     </option>
   </component>
@@ -414,10 +408,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="48" />
-    <option name="y" value="277" />
-    <option name="width" value="1894" />
-    <option name="height" value="1103" />
+    <option name="x" value="46" />
+    <option name="y" value="275" />
+    <option name="width" value="1895" />
+    <option name="height" value="1105" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -433,17 +427,6 @@
             <path>
               <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="machine_learning_notes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="machine_learning_notes" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,7 +444,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="E:/Learning materials/实例与赛题/音乐推荐系统" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
@@ -522,6 +505,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/算法/搜索/二分法查找.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="优化器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/library/pytorch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/library/pytorch/优化器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="两两交换链表中的节点" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/Learning materials/数据结构与算法代码/链表" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/Learning materials/数据结构与算法代码/链表/两两交换链表中的节点.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -831,44 +852,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="优化器" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Blog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/library/pytorch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/library/pytorch/优化器.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="两两交换链表中的节点" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Blog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/Learning materials/数据结构与算法代码/链表" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:/Learning materials/数据结构与算法代码/链表/两两交换链表中的节点.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -967,9 +950,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14812332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15214477" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32668713" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32941177" />
@@ -1029,127 +1011,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/数据结构/顺序队列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/recursive.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-837">
-            <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/queue.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="216">
-            <caret line="220" selection-start-line="220" selection-end-line="220" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1221349943/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="5851" lean-forward="true" selection-start-line="5851" selection-end-line="5852" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/数据结构/循环队列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/sort.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="184">
-            <caret line="395" column="3" lean-forward="true" selection-start-line="395" selection-start-column="3" selection-end-line="395" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/算法/排序/quick_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/算法/台阶递归.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning_notes/chapter/class.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning_notes/chapter/design_patterns.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning_notes/chapter/func_anonymous_func.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning_notes/chapter/names_scope.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning_notes/chapter/closure_decorator.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning_notes/chapter/dist_operate.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning_notes/chapter/internal_function.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_learning_notes/chapter/break_continue_pass.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1163,16 +1024,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="54">
             <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/实际问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1458">
-            <caret line="122" selection-start-line="122" selection-end-line="122" />
           </first_editor>
           <second_editor />
         </state>
@@ -1274,24 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_coverpage.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="351">
-            <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/search&amp;list.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1327,16 +1160,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="1327">
             <caret line="387" column="9" selection-start-line="387" selection-start-column="9" selection-end-line="387" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>
@@ -1398,33 +1221,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/8_probability.md" />
-    <entry file="file://$PROJECT_DIR$/deep_learning_notes/chapter/感知机.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="3618">
-            <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sidebar.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="270">
-            <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Learning materials/Python实现音乐推荐系统/recommendation_engines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13799">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#62#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1439,6 +1239,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5174">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expand_algorithms/chapter/EM.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expand_algorithms/chapter/LFM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_notes/chapter/感知机.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="375">
+            <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Github/maching_learning_pratice/.git/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_coverpage.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/chapter/real_problem.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3942">
+            <caret line="122" selection-start-line="122" selection-end-line="122" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="81">
+            <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library_usage_notes/chapter/scikit_learn.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/6_math.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="213">
+            <caret line="140" column="13" lean-forward="true" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1457,14 +1337,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/6_math.md">
+    <entry file="file://$PROJECT_DIR$/python_learning_notes/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="135">
-            <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
-            <folding>
-              <element signature="e#7#19#0" />
-            </folding>
+          <first_editor relative-caret-position="497">
+            <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="497">
+            <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_notes/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="983">
+            <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library_usage_notes/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="416">
+            <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expand_algorithms/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_notes/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures_algorithms_notes/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="497">
+            <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_project_notes/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="227">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathematics_basis_notes/chapter/7_matrix.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="486">
+            <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_notes/chapter/15_callback.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="27">
+            <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/machine_learning/SVM/损失函数对比.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning_notes/python_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sidebar.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="3132">
+            <caret line="116" column="3" lean-forward="true" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
